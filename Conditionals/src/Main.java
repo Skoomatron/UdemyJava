@@ -18,5 +18,9 @@ public class Main {
         } else {
             System.out.println("Big fails");
         }
+
+        boolean boolTwo = score == 55 ? true : false;
+
+        System.out.println(boolTwo);
     }
 }
