@@ -1,10 +1,13 @@
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("The sum of 2, 4, and 7 is...");
 
-        int thisNumber = 5 + 5;
+        int numberOne = 2;
+        int numberTwo = 4;
+        int numberThree = 7;
 
-        System.out.println(thisNumber);
-        //test
+        int total = numberOne + numberTwo + numberThree;
+
+        System.out.println(total);
     }
 }
