@@ -7,7 +7,7 @@ public class Main {
 
         double remainder = result % 40.00;
 
-        boolean check = remainder == 0 ? true : false;
+        boolean check = (remainder == 0) ? true : false;
 
         System.out.println("Check is equal to " + check);
 
