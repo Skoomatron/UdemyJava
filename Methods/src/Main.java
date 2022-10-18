@@ -3,19 +3,25 @@ public class Main {
         int scoreOne = 50;
         int scoreTwo = 150;
         int scoreThree = 10000;
+        String result;
 
-        calculateScore(scoreOne);
-        calculateScore(scoreTwo);
-        calculateScore(scoreThree);
+        result = calculateScore(scoreOne);
+        System.out.println(result);
+        result = calculateScore(scoreTwo);
+        System.out.println(result);
+        result = calculateScore(scoreThree);
+        System.out.println(result);
+
+
     }
 
-    public static void calculateScore(int score) {
+    public static String calculateScore(int score) {
         if (score < 100) {
-            System.out.println("Try Again " + score);
+            return "Try Again";
         } else if (score > 100 && score < 1000) {
-            System.out.println("Almost There " + score);
+            return "Almost There";
         } else {
-            System.out.println("Youre a winner " + score);
+            return "You're a winner!";
         }
     }
 }
