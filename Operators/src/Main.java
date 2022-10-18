@@ -19,5 +19,25 @@ public class Main {
         resultOne = resultOne % 4;
 
         System.out.println("The remainder of result one is " + resultOne);
+
+        resultOne++;
+
+        System.out.println("Result is now equal to " + resultOne);
+
+        resultOne--;
+
+        System.out.println("Result is now equal to " + resultOne);
+
+        resultOne += 7;
+
+        System.out.println("Result is now equal to " + resultOne);
+
+        resultOne -= 3;
+
+        System.out.println("Result is now equal to " + resultOne);
+
+        resultOne *= 3;
+
+        System.out.println("Result is now equal to " + resultOne);
     }
 }
