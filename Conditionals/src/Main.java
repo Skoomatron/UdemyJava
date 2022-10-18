@@ -19,7 +19,7 @@ public class Main {
             System.out.println("Big fails");
         }
 
-        boolean boolTwo = score == 55 ? true : false;
+        boolean boolTwo = score == 58 ? true : false;
 
         System.out.println(boolTwo);
     }
