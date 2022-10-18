@@ -11,6 +11,9 @@ public class Main {
 
         System.out.println("Check is equal to " + check);
 
+        System.out.println(result);
+        System.out.println(remainder);
+
         if (!check) {
             System.out.println("There was some junk left.");
         }
