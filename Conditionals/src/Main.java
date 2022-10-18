@@ -11,7 +11,7 @@ public class Main {
             System.out.println("This logic block is evaluated to true.");
         }
 
-        if (score > 60) {
+        if (score > 60 || score < 80) {
             System.out.println("You scored over 50");
         } else if (score == 58) {
             System.out.println("wow");
