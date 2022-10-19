@@ -4,6 +4,11 @@ public class Main {
     }
 
     public static int sumDigits(int num) {
+
+        if (num < 10) {
+            return -1;
+        }
+
         int total = 0;
         int current = num;
         int remainder = 0;
