@@ -4,6 +4,11 @@ public class Main {
             double total = calculateInterest(10000, i);
             System.out.println("Monies are " + total);
         }
+
+        for (int i = 8; i >= 2; i--) {
+            double total = calculateInterest(10000, i);
+            System.out.println("Monies are " + total);
+        }
     }
 
     public static double calculateInterest(double amount, double rate) {
