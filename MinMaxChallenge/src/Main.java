@@ -28,7 +28,6 @@ public class Main {
             System.out.println("Current minimum number is: " + min);
             System.out.println("Current maximum number is: " + max);
         } while (true);
-
         scanner.close();
     }
 }
